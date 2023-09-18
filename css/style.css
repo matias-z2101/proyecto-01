@@ -1,0 +1,126 @@
+@charset "UTF-8";
+/*Normalize*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style: none; }
+
+/*Variables*/
+/*Colores*/
+/*Body*/
+body {
+  height: auto;
+  width: 100%;
+  background-color: #fafafa; }
+
+/*Header*/
+#header {
+  width: 100%;
+  background-color: #151F30; }
+
+#header .container_nav {
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  color: #fafafa; }
+
+#header .container_logo_img {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+#header .logo {
+  padding: 5px;
+  font-weight: bold;
+  font-size: 1.6em;
+  text-align: center;
+  color: #103778; }
+
+#header .container_nav img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30px;
+  height: 25px; }
+
+.container_nav nav {
+  padding: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-weight: bold; }
+  .container_nav nav a {
+    color: #fafafa; }
+    .container_nav nav a:hover {
+      color: #000000; }
+
+/*#presentacion*/
+#presentacion {
+  text-align: center;
+  color: #fafafa;
+  height: 90vh;
+  background-color: #fafafa;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../image/foto_oji_auto_pequeña.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+/*#quien_soy*/
+#quien_soy {
+  display: flex;
+  flex-direction: column;
+  text-align: center; }
+  #quien_soy h1 {
+    padding: 10px;
+    font-weight: bold; }
+  #quien_soy p {
+    padding: 10px;
+    margin: 10px 10px; }
+
+/*#conocimientos*/
+#conocimientos {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #151F30; }
+  #conocimientos h1 {
+    font-weight: bold;
+    padding: 20px;
+    color: #fafafa; }
+
+#conocimientos .conocimientos_img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap: 20px; }
+
+#conocimientos .conocimientos_img img {
+  width: 50px;
+  height: 50px; }
+
+/*#cosas_que_me_gustsa_hacer*/
+#cosas_que_me_gusta_hacer {
+  background-color: #fafafa; }
+
+/*#contacto*/
+#contacto {
+  background-color: #151F30; }
+
+/*#footer*/
+#footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #E3371E; }

@@ -1,0 +1,14 @@
+/*#quien_soy*/
+#quien_soy{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    h1{
+        padding: 10px;
+        font-weight: bold;
+    }
+    p{
+        padding: 10px;
+        margin: 10px 10px;
+    }
+}
